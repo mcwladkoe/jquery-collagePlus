@@ -1,6 +1,6 @@
 /*!
  *
- * jQuery collagePlus Plugin v0.3.3
+ * jQuery collagePlus Plugin v0.3.3r
  * https://github.com/ed-lea/jquery-collagePlus
  *
  * Copyright 2012, Ed Lea twitter.com/ed_lea
@@ -135,8 +135,6 @@
                         resizeRow(elements, (row - settings.padding), settings, rownum);
 
                         // reset our row
-                        delete row;
-                        delete elements;
                         row         = 0;
                         elements    = [];
                         rownum      += 1;
@@ -153,8 +151,6 @@
                         resizeRow(elements, row, settings, rownum);
 
                         // reset our row
-                        delete row;
-                        delete elements;
                         row         = 0;
                         elements    = [];
                         rownum      += 1;
